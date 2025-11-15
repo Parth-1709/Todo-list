@@ -41,47 +41,33 @@ This project blends functionality with design — simple task management enhance
 
 ---
 
-🧩 How It Works
-🏠 Home Page
+##🧩 How It Works
+###🏠 Home Page
 
 Loads a Spline 3D scene
+-A loading screen appears until the model is ready
+-GSAP animates the hero text and buttons
+-Smooth, modern entrance transitions
 
-A loading screen appears until the model is ready
+###📄 About Page
 
-GSAP animates the hero text and buttons
+-Uses GSAP ScrollTrigger
+-Animates text and sections when they come into view
+-Clean typography and layout
 
-Smooth, modern entrance transitions
+###🗂 Todo Page
 
-📄 About Page
+-Tasks are draggable using Motion (Framer Motion)
+-Elastic drag interactions
+-Add, delete, and mark tasks as done
+-State-based UI updates
 
-Uses GSAP ScrollTrigger
+##🧠 What I Learned
 
-Animates text and sections when they come into view
-
-Clean typography and layout
-
-🗂 Todo Page
-
-Tasks are draggable using Motion (Framer Motion)
-
-Elastic drag interactions
-
-Add, delete, and mark tasks as done
-
-State-based UI updates
-
-🧠 What I Learned
-
-Integrating Spline models into React apps
-
-Using Motion for draggable components
-
-Creating premium UI with GSAP animations
-
-Scroll-based transitions using ScrollTrigger
-
-State management for dynamic task lists
-
-Async loading behavior for 3D assets
-
-Responsive UI with Tailwind CSS
+-Integrating Spline models into React apps
+-Using Motion for draggable components
+-Creating premium UI with GSAP animations
+-Scroll-based transitions using ScrollTrigger
+-State management for dynamic task lists
+-Async loading behavior for 3D assets
+-Responsive UI with Tailwind CSS
