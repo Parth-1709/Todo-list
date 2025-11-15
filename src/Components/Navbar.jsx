@@ -13,7 +13,7 @@ function Navbar() {
         <NavLink to="/about" className={({isActive})=>(`${isActive?"text-orange-500":"text-black"}`)}>About</NavLink>
         <NavLink to="/todo" className={({isActive})=>(`${isActive?"text-orange-500":"text-black"}`)}>Todo-List</NavLink>
       </ul>
-      <a href='' target='blank' className="bg-black py-2 px-8 rounded-full text-white font-semibold font-serif flex items-center gap-5 cursor-pointer hover:bg-black/70"><FaGithub/>Github</a>
+      <a href='https://github.com/Parth-1709/Todo-list' target='blank' className="bg-black py-2 px-8 rounded-full text-white font-semibold font-serif flex items-center gap-5 cursor-pointer hover:bg-black/70"><FaGithub/>Github</a>
     </div>
   )
 }
