@@ -41,33 +41,44 @@ This project blends functionality with design — simple task management enhance
 
 ---
 
-##🧩 How It Works
-###🏠 Home Page
+## 🧩 How It Works
 
-Loads a Spline 3D scene
--A loading screen appears until the model is ready
--GSAP animates the hero text and buttons
--Smooth, modern entrance transitions
+### 🏠 Home Page
+- Loads an interactive **Spline 3D scene**.
+- A loading screen remains visible until the Spline model fully initializes.
+- Once loaded, **GSAP** animates:
+  - The main heading  
+  - Subtitle  
+  - Buttons  
+  - UI container  
+- This creates a smooth, premium entry animation for the landing page.
 
-###📄 About Page
+---
 
--Uses GSAP ScrollTrigger
--Animates text and sections when they come into view
--Clean typography and layout
+### 📄 About Page
+- Uses **GSAP ScrollTrigger** to animate content when it enters the viewport.
+- Each section fades or slides in as the user scrolls down.
+- Adds a dynamic, modern scrolling experience without overwhelming the user.
 
-###🗂 Todo Page
+---
 
--Tasks are draggable using Motion (Framer Motion)
--Elastic drag interactions
--Add, delete, and mark tasks as done
--State-based UI updates
+### 🗂 Todo Page
+- Each task is represented as a draggable card.
+- Uses **Motion (Framer Motion)** for:
+  - Drag functionality  
+  - Elastic bounce effects  
+  - Smooth physics-based movement  
+- Tasks are kept inside a bounding container to avoid overflow.
+- Users can:
+  - Add tasks  
+  - Delete tasks  
+  - Mark tasks as done/undone  
+- React state updates the UI instantly, keeping everything responsive.
 
-##🧠 What I Learned
+---
 
--Integrating Spline models into React apps
--Using Motion for draggable components
--Creating premium UI with GSAP animations
--Scroll-based transitions using ScrollTrigger
--State management for dynamic task lists
--Async loading behavior for 3D assets
--Responsive UI with Tailwind CSS
+### 🎨 Visual Experience
+- Tailwind CSS ensures spacing, colors, and layout remain clean and consistent.
+- Spline adds 3D interactivity to bring personality to the UI.
+- Combined with Motion and GSAP, the app feels fluid and modern.
+
